@@ -84,6 +84,7 @@ iframe{
 /* Footer */
 
 .footer{
+    height: auto;
     background-color: #013220;
     color:white;
     padding: 40px;

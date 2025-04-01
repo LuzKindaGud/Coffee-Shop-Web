@@ -9,7 +9,7 @@
 section{
     position: relative;
     width: 100%;
-    min-width: 100vh;
+    min-height: 100vh;
     padding: 100px;
     display: flex;
     justify-content: space-between;
@@ -294,3 +294,12 @@ header ul li a:hover::after {
 .fade {
     opacity: 0;
 }
+
+object {
+    display: block;
+    border: none;
+    overflow: hidden;
+}
+
+
+
