@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Nunito+Sans:ital,wght@0,400;0,700;0,800;1,300;1,700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Ngăn chặn cuộn ngang nếu có */
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +29,12 @@ section{
 section:first-of-type {
     padding-top: 80px; /* Dieu chinh dua tren chieu cao cua header */
 }
+
+section:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
 
 header{
     position: fixed;
@@ -294,6 +308,7 @@ header ul li a:hover::after {
 .fade {
     opacity: 0;
 }
+
 
 object {
     display: block;
